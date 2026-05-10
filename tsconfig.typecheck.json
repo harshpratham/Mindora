@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.json",
+  "include": [
+    "src/env.ts",
+    "src/vite-env.d.ts",
+    "src/utils/**/*.ts",
+    "vite.config.ts",
+    "vitest.config.ts"
+  ],
+  "exclude": ["node_modules"]
+}
